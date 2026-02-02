@@ -1,0 +1,9 @@
+# Run system health check every hour
+0 * * * * /mnt/c/Users/sravy/Downloads/linux-server-automation-toolkit/scripts/system_health.sh
+
+# Run backup daily at 2 AM
+0 2 * * * /mnt/c/Users/sravy/Downloads/linux-server-automation-toolkit/scripts/backup.sh
+
+# Cleanup logs weekly on Sunday at 3 AM
+0 3 * * 0 /mnt/c/Users/sravy/Downloads/linux-server-automation-toolkit/scripts/log_cleanup.sh
+
